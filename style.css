@@ -1,0 +1,32 @@
+h1{
+    color: cornflowerblue;
+    font-family: fantasy;
+    font-size: 20px;
+    text-decoration: overline;
+}
+h2{
+    text-decoration: line-through;
+}
+h3{
+    text-decoration: underline;
+}
+p.ex{
+    text-decoration: overline underline;
+}
+p.a{
+    color: aquamarine;
+    text-align: left;
+}
+p.b{
+    color: deeppink;
+    text-align: center;
+}
+p.c{
+    color: cadetblue;
+    text-align: right;
+}
+p.d{
+    color: indigo;
+    text-align: justify;
+    background-color: coral;
+}

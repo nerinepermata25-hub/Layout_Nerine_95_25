@@ -1,0 +1,372 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header{
+    width: 100%;
+    height: 340px;
+    padding: 0;      
+    overflow: hidden;
+}
+
+div.footer{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    background-color: #fff8ed;
+    color: #432b20;
+}
+
+@font-face {
+    font-family: AAA;
+    src: url(chicken_pie/CHICKEN\ Pie.otf);
+}
+
+.judul {
+    text-align: center;
+    padding: 60px 10%;
+    background-color: #ffd36a;
+    font-family: "AAA";
+}
+
+.judul p {
+    color: #a94b29;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.judul h1 {
+    font-size: 65px;
+    margin: 15px 0 5px;
+    color: #7b351f;
+}
+
+.judul h3 {
+    font-weight: normal;
+    color: #7b351f;
+}
+
+.judul img {
+    width: 500px;
+    max-width: 90%;
+
+    margin-top: 25px;
+
+    border-radius: 25px;
+}
+
+
+/* SECTION */
+
+section {
+    padding: 70px 10%;
+}
+
+.title p {
+    color: #d15b3f;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: "AAA";
+}
+
+
+.title h2 {
+    font-size: 38px;
+    margin-top: 5px;
+    font-family: "AAA";
+}
+
+.center {
+    text-align: center;
+}
+
+
+/* PENJELASAN */
+
+.content {
+    display: flex;
+    align-items: center;
+
+    gap: 50px;
+}
+
+.content div {
+    width: 55%;
+}
+
+.content p {
+    line-height: 1.8;
+    font-family: "AAA";
+}
+
+.content > img {
+    width: 40%;
+
+    border-radius: 20px;
+}
+
+
+/* SEJARAH */
+
+.sejarah {
+    background-color: #f3c6a5;
+    font-family: "AAA";
+}
+
+.sejarah-box {
+    background-color: #fff8ed;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    line-height: 1.8;
+    font-family: "AAA";
+}
+
+
+/* CARA MEMBUAT */
+
+.cara-list {
+    display: flex;
+
+    gap: 20px;
+
+    margin-top: 40px;
+    font-family: "AAA";
+}
+
+.cara-box {
+    background-color: white;
+
+    padding: 25px;
+
+    width: 25%;
+
+    border-radius: 15px;
+
+    border-top: 5px solid #d15b3f;
+    font-family: "AAA";
+}
+
+.cara-box h3 {
+    color: #d15b3f;
+    font-family: "AAA";
+}
+
+.cara-box p {
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: "AAA";
+}
+
+.cuko {
+    margin-top: 30px;
+
+    background-color: #b4548a;
+
+    color: white;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    line-height: 1.7;
+    font-family: "AAA";
+}
+
+
+/* JENIS PEMPEK */
+
+.jenis {
+    background-color: #fff0c7;
+    font-family: "AAA";
+}
+
+.jenis-list {
+    display: flex;
+
+    gap: 20px;
+
+    margin-top: 40px;
+    font-family: "AAA";
+}
+
+.jenis-box {
+    background-color: rgb(255, 251, 130);
+
+    padding: 15px;
+
+    width: 25%;
+
+    border-radius: 15px;
+
+    text-align: center;
+}
+
+.gambar {
+    position: relative;
+}
+
+.gambar > img {
+    width: 100%;
+    height: 180px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+    cursor: pointer;
+}
+
+
+.popup {
+    display: none;
+
+    position: fixed;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    background-color: rgb(253, 253, 252);
+
+    padding: 15px;
+
+    border-radius: 15px;
+
+    z-index: 10;
+}
+
+.gambar:hover .popup {
+    display: block;
+}
+
+.popup img {
+    width: 450px !important;
+
+    height: auto !important;
+
+    max-width: 70vw;
+    max-height: 70vh;
+
+    border-radius: 10px;
+    font-family: "AAA";
+}
+
+
+/* KELEBIHAN */
+
+.kelebihan {
+    background-color: #ef9b63;
+    font-family: "AAA";
+}
+
+.kelebihan-list {
+    display: flex;
+
+    gap: 25px;
+}
+
+.kelebihan-list div {
+    background-color: #fff8ed;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    width: 33%;
+    font-family: "AAA";
+}
+
+.kelebihan-list h3 {
+    color: #d15b3f;
+    font-family: "AAA";
+}
+
+.kelebihan-list p {
+    line-height: 1.7;
+    font-family: "AAA";
+}
+
+
+.kesimpulan {
+    display: flex;
+
+    align-items: center;
+
+    gap: 60px;
+
+    background-color: #7b351f;
+
+    color: white;
+    font-family: "AAA";
+}
+
+.kesimpulan > div {
+    width: 45%;
+}
+
+.kesimpulan h2 {
+    font-size: 40px;
+    font-family: "AAA";
+}
+
+.kesimpulan > p {
+    width: 55%;
+
+    line-height: 1.8;
+    font-family: "AAA";
+}
+
+
+/* HP */
+
+@media (max-width: 700px) {
+
+    .judul h1 {
+        font-size: 45px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .content div,
+    .content > img {
+        width: 100%;
+    }
+
+    .cara-list,
+    .jenis-list,
+    .kelebihan-list {
+        flex-direction: column;
+    }
+
+    .cara-box,
+    .jenis-box,
+    .kelebihan-list div {
+        width: 100%;
+    }
+
+    .kesimpulan {
+        flex-direction: column;
+    }
+
+    .kesimpulan > div,
+    .kesimpulan > p {
+        width: 100%;
+    }
+
+}

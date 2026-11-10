@@ -1,0 +1,15 @@
+.header{
+    width: 100%;
+    height: 340px;
+    padding: 0;
+    overflow: hidden;
+}
+
+td{
+    color: rgb(220, 71, 116);
+}
+
+tr{
+    color: rgb(98, 125, 199);
+}
+

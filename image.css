@@ -1,0 +1,41 @@
+body{
+    background-image: url("background.jpg");
+}
+img.ukuran{
+    height: 300px;
+    width: 300px;
+}
+img.lengkungan{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px 20px 20px 20px;
+}
+div.kelompok{
+    height: 300px;
+    width: 300px;
+    background-color: hotpink;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    padding: 5px;
+}
+div.kelompok img{
+    height: 270px;
+    width: 250px;
+    border-radius: 10%;
+    border: 2px solid fuchsia;
+    
+}
+div.efek:hover{
+    height: 350px;
+    width: 300px;
+    background-color: deeppink;
+    box-shadow: 15px 15px 10px darkslategrey;
+}
+p.external{
+    font-family:"abcde";
+    font-size: 30pt;
+}
+@font-face {
+    font-family:"abcde";
+    src: url("chicken_pie/CHICKEN\ Pie.otf");
+}

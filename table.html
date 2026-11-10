@@ -1,0 +1,138 @@
+<html>
+    <head>
+        <title> Layout HTML dan CSS </title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="biodatastylen.css">
+        <link rel="stylesheet" href="table.css">
+    <body>
+
+
+
+
+
+        <div class="header">
+            <img src="strawberrytableheader.jpg" alt="Header">
+        </div>
+
+        
+
+        <div class="topnav">
+            <a href="index.html"> Biodata </a>
+            <a href="table.html"> Table </a>
+            <a href="list.html"> List </a>
+            <a href="sts.html"> STS </a>
+        </div>
+
+        <h2> Tabel Nilai Siswa </h2>
+
+
+        <!-- Membuat Tabel Nilai -->
+         <!-- colspan: membuat kolom -->
+          <!-- rowspan: menggabungkan baris -->
+        <center>
+          <table>
+            <tr>
+                <th rowspan="2"> No </th>
+                <th rowspan="2"> Nama Siswa </th>
+                <th rowspan="2"> Mata Pelajaran </th>
+                <th colspan="2"> Nilai</th>
+            </tr>
+            <tr>
+                <th> Ulangan 1</th>
+                <th> Ulangan 2</th>
+            </tr>
+            <tr>
+                <td> 1 </td>
+                <td> Kenisha </td>
+                <td> IPS </td>
+                <td> 80 </td>
+                <td> 89 </td>
+            </tr>
+            <tr>
+                <td> 2 </td>
+                <td> Dea </td>
+                <td> TIK </td>
+                <td> 70 </td>
+                <td> 69</td>
+            </tr>
+            <tr>
+                <td> 3 </td>
+                <td> Bevy </td>
+                <td> IPS </td>
+                <td> 80 </td>
+                <td> 67 </td>
+            </tr>
+            <tr>
+                <td> 4 </td>
+                <td> Kea </td>
+                <td> Agama </td>
+                <td> 100 </td>
+                <td> 90 </td>
+            </tr>
+            <tr>
+                <td> 5 </td>
+                <td> Nerine </td>
+                <td> MTK </td>
+                <td> 70 </td>
+                <td> 100 </td>
+            </tr>
+        </table>
+ 
+
+ <h2> Tugas Tabel</h2>
+
+        <table>
+        <!-- BARIS 1 -->
+        <tr>
+            <td rowspan="4">1</td>
+            <td colspan="2">2</td>
+            <td colspan="2">3</td>
+            <td rowspan="4">4</td>
+            <td rowspan="4">5</td>
+            <td rowspan="3">6</td>
+            <td rowspan="4">7</td>
+        </tr>
+        
+        <!-- BARIS 2 -->
+        <tr>
+            <td class="cyan-bg">8</td>
+            <td class="cyan-bg">9</td>
+            <td colspan="2" class="cyan-bg">10</td>
+        </tr>
+        
+        <!-- BARIS 3 -->
+        <tr>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+        </tr>
+        
+        <!-- BARIS 4 -->
+        <tr>
+            <td colspan="4" class="cyan-bg">16</td>
+            <td>15</td>
+        </tr>
+        
+        <!-- BARIS 5 -->
+        <tr>
+            <td rowspan="2">17</td>
+            <td colspan="2">18</td>
+            <td rowspan="2" colspan="2">19</td>
+            <td colspan="4">20</td>
+        </tr>
+        
+        <!-- BARIS 6 -->
+        <tr>
+            <td class="cyan-bg">21</td>
+            <td class="cyan-bg">22</td>
+            <td colspan="4" class="cyan-bg">23</td>
+        </tr>
+    </table>
+    </center>
+
+
+        <div class="footer">
+            <p> Nerine 95/25 </p>
+        </div>
+    </body>
